@@ -5,7 +5,7 @@ Repositório para estudos da plataforma DIO:
 - Tutoriais;
 - Projetos.
 
-## 1 - Desafio de Projeto sobre Git/GitHub da DIO
+## 1 - Introdução ao Git e ao GitHub (básico)
 
 Cumprimento do Desafio de criação de Projeto sobre Git/GitHub:
 - [ X ] Instalar e configurar Git;
@@ -15,3 +15,15 @@ Cumprimento do Desafio de criação de Projeto sobre Git/GitHub:
 - [ X ] Commitar alterações;
 - [ X ] Empurrar as alterações para o repositório remoto.
 
+## 2 - Introdução a criação de websites com HTML5 e CSS3 (básico)
+
+Conteúdo visto:
+- [ X ] HTML estrutura básica;
+- [ X ] Semântica HTML5;
+- [ X ] Tags (texto, link, imagem e listas);
+- [ X ] Introdução ao CSS3;
+- [ X ] Estilizando elementros, texto e listas;
+- [ X ] Dimensões e alinhamento.
+
+### Bootcamp:
+[Eduzz Fullstack Developer](https://web.digitalinnovation.one/track/eduzz-fullstack-developer)
