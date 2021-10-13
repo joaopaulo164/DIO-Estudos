@@ -25,5 +25,34 @@ Conteúdo visto:
 - [ X ] Estilizando elementros, texto e listas;
 - [ X ] Dimensões e alinhamento.
 
-### Bootcamp:
+
+## 3 - JavaScript ES6 essencial
+
+JavaScript ES6 essencial
+
+### Módulo I - Introdução ao ES6
+
+- Aula I - História e conceitos
+- Aula II - Currying, Hoisting, Imutabilidade, Tipos e Variáveis
+- Aula III - Spread, estruturas condicionais e repetição
+
+
+### Módulo II - Tipos, variáveis, operadores, condicionais e repetição em Javascript ES6
+
+- Aula I - Tipos e variáveis
+- Aula II - Functions e operadores
+- Aula III - Spread, estruturas condicionais e repetição
+
+### Módulo III - Orientação a objetos e Design Patterns com a linguagem ES6
+
+- Aula I - Introdução a orientação a objetos
+- Aula II - Introdução a Design Patterns
+
+### Módulo IV - Manipulação e iteração de arrays
+
+- Aula I - Criando e manipulando arrays
+- Aula II - Iterar, buscar e transformar elementos
+
+
+# Bootcamp:
 [Eduzz Fullstack Developer](https://web.digitalinnovation.one/track/eduzz-fullstack-developer)
