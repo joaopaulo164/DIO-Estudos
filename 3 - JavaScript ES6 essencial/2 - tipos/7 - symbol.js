@@ -11,9 +11,9 @@ const nameSymbol1 = Symbol('name');
 const nameSymbol2 = Symbol('name');
 
 const user = {
-	[nameSymbol1]: 'Daniel',
+	[nameSymbol1]: 'Joao',
 	[nameSymbol2]: 'Outro nome',
-	lastName: 'Negrisoli Batista'
+	lastName: 'Mendes'
 }
 
 console.log(user);

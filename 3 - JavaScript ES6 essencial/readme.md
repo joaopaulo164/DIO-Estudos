@@ -5,7 +5,6 @@ JavaScript ES6 essencial
 
 # Módulo I - Introdução ao ES6
 
-- Autor: Guilherme Cabrini da Silva
 - Origem: Digital Innovation One
 
 ## Aula I - História e conceitos
@@ -34,7 +33,7 @@ JavaScript ES6 essencial
 ```javascript
 //funcoes.js
 function getName() {
-  return 'Daniel Negrisoli Batista';
+  return 'Joao Mendes';
 }
 function logFn(fn) {
   console.log(fn());
@@ -72,7 +71,7 @@ function fn() {
 
 ### Currying
 
-É a técnica de transforma uma função com vários parâmetros em apenas um sendo que para cada parâmetro e retornando outra função.
+É a técnica que transforma uma função com vários parâmetros em apenas um sendo que para cada parâmetro e retornando outra função.
 
 ```javascript
 //currying.js
@@ -139,13 +138,13 @@ fnHoistingFun();
 O valor da variável nunca muda, caso precise alterar é preciso criar outra.
 Exemplo:
 Se precisar inserir um array, você realizar uma cópia inclui o novo item na cópia.
-Se precisar atualar um objeto, você realizar uma cópia altera o novo item na cópia.
+Se precisar atualizar um objeto, você realizar uma cópia altera o novo item na cópia.
 
 ```javascript
 //1-imutabilidade.js
 const user = {
-  name: 'Daniel',
-  lastName: 'Negrisoli Batista'
+  name: 'Joao',
+  lastName: 'Mendes'
 }
 
 //o parâmetro é passado para a função por referência, sendo assim caso ela altere o item o mesmo de onde veio a informação será alterada.
@@ -207,9 +206,9 @@ No momento da criação de variáveis e necessário lembrar dos 3 tipos de escop
 
 ```javascript
 //1-variaveis.js
-var nameVar = 'Daniel';
-let nameLet = 'Daniel';
-const nameConst = 'Daniel';
+var nameVar = 'Joao';
+let nameLet = 'Joao';
+const nameConst = 'Joao';
 
 console.log(`nameVar : ${nameVar}`);
 console.log(`nameLet : ${nameLet}`);
@@ -277,13 +276,13 @@ console.log(`Valor após a execução do if "${test}"`);
 ```javascript
 //3-variaveis.js
 //Se for uma const do tipo primitivo,
-const name = 'Daniel';
+const name = 'Joao';
 
 //não podemos alterar o valor,
-name = 'Daniel';
+name = 'Joao';
 
 const user = {
-  name: 'Daniel'
+  name: 'Joao'
 };
 
 //mas se for um objeto, podemos trocar suas propriedades
@@ -291,14 +290,14 @@ user.name = 'Outro nome'
 
 //não podemos fazer o objeto "apontar" para outro lugar
 user = {
-  name: 'Guilherme'
+  name: 'Joao'
 };
 
-const persons = ['Daniel', 'Pedro', 'Jennifer'];
+const persons = ['Joao', 'Pedro', 'Jennifer'];
 
 //podemos adicionar novos itens
 persons.push('João');
-//result ['Daniel', 'Pedro', 'Jennifer', 'João']
+//result ['Joao', 'Pedro', 'Jennifer', 'João']
 
 //podemos remover algum item
 persons.shift();
@@ -316,7 +315,6 @@ console.log('\nArray após as alterações: ', persons);
 
 # Módulo II - Tipos, variáveis, operadores, condicionais e repetição em Javascript ES6
 
-- Autor: Guilherme Cabrini da Silva
 - Origem: Digital Innovation One
 
 ## Aula I - Tipos e variáveis
@@ -416,9 +414,9 @@ const nameSymbol1 = Symbol('name');
 const nameSymbol2 = Symbol('name');
 
 const user = {
-  [nameSymbol1]: 'Daniel',
+  [nameSymbol1]: 'Joao',
   [nameSymbol2]: 'Outro nome',
-  lastName: 'Negrisoli Batista'
+  lastName: 'Mendes'
 }
 
 console.log(user);
@@ -451,7 +449,7 @@ const directions = {
 ```javascript
 //1-object.js
 let user = {
-  name: 'Daniel'
+  name: 'Joao'
 };
 
 console.log(user);
@@ -466,7 +464,7 @@ user[prop] = 'Outro nome 3';
 console.log(user);
 
 //criando uma propriedade
-user.lastName = 'Negrisoli Batista';
+user.lastName = 'Mendes';
 console.log(user);
 
 //deletando uma propriedade
@@ -477,8 +475,8 @@ console.log(user);
 ```javascript
 //2-object.js
 let user = {
-  name: 'Daniel',
-  lastName: 'Negrisoli Batista'
+  name: 'Joao',
+  lastName: 'Mendes'
 };
 
 //recupera as chaves do objeto
@@ -491,7 +489,7 @@ console.log('\Valores das propriedades do objeto user: ', Object.values(user));
 console.log('\Lista de propriedades e valores: ', Object.entries(user));
 
 //merge de propriedades de objetos
-Object.assign(user, { fullName: 'Daniel Negrisoli Batista'});
+Object.assign(user, { fullName: 'Joao Mendes'});
 
 console.log('\nAdiciona a propriedade fullName no objeto user: ', user);
 console.log('\Retorna um novo objeto mergeando dois ou mais objetos: ', Object.assign({}, user, {age: 36}));
@@ -507,10 +505,10 @@ newObj.bar = 'foo';
 console.log('\nVariável newObj após as alterações: ', newObj);
 
 //permite apenas a alteração de propriedades existetnes em um objeto
-const person = { name: 'Daniel' };
+const person = { name: 'João' };
 Object.seal(person);
 
-person.name = 'Daniel Negrisoli Batista';
+person.name = 'Joao Mendes';
 delete person.name;
 person.age = 36;
 
@@ -593,7 +591,7 @@ console.log(user.getName());
 
 ```javascript
 //1-array.js
-const users = ['Daniel', 'Pedro', 'Jennifer'];
+const users = ['Joao', 'Pedro', 'Jennifer'];
 
 const gender = {
   MAN: Symbol('M'),
@@ -602,7 +600,7 @@ const gender = {
 
 const persons = [
   {
-    name: 'Daniel',
+    name: 'Joao',
     age: 35,
     gender: gender.MAN
   },
@@ -1048,7 +1046,6 @@ for(let index = 0; index < array.length; index++) {
 
 # Módulo III - Orientação a objetos e Design Patterns com a linguagem ES6
 
-- Autor: Guilherme Cabrini da Silva
 - Origem: Digital Innovation One
 
 ## Aula I - Introdução a orientação a objetos
@@ -1169,13 +1166,13 @@ class Person {
 }
 
 
-const p = new Person('Daniel');
+const p = new Person('Joao');
 
 console.log(p)
 //Person {getName: f, setName: f}
 
 p.getName();
-//daniel
+//Joao
 
 p.name;
 //undefined
@@ -1347,8 +1344,8 @@ Todas as funções que retornam um objeto, sem a necessidade de chamá-las com o
 
 function Pessoa(customProperties) {
   return {
-    name: 'Daniel',
-    lastName: 'Negrisoli Batista',
+    name: 'Joao',
+    lastName: 'Mendes',
     ...customProperties
   }
 }
@@ -1379,7 +1376,7 @@ function Pessoa() {
   return Pessoa.instance
 }
 
-const pessoa = Pessoa.call({name: 'Daniel'});
+const pessoa = Pessoa.call({name: 'Joao'});
 
 const pessoa2 = Pessoa.call({name: 'Custom Name'});
 
@@ -1482,7 +1479,7 @@ module.exports = {
 const {getName, setName} = require('./5-module.js');
 
 console.log(getName());
-console.log(setName('Daniel'));
+console.log(setName('Joao'));
 console.log(getName());
 ```
 
@@ -1760,11 +1757,13 @@ pessoa.nome = 'Foo';
 console.log(pessoa.nome);
 ```
 
-R: "Pessoa {#nome: "Foo"}", "Seu nome é: undefined." e "Seu nome é: Foo."
+R:
+Pessoa {}
+Seu nome é: undefined.
+Seu nome é: Foo.
 
 # Módulo IV - Manipulação e iteração de arrays
 
-- Autor: Guilherme Cabrini da Silva
 - Origem: Digital Innovation One
 
 ## Aula I - Criando e manipulando arrays
