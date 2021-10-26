@@ -2,7 +2,7 @@ const [apple, banana, orange, [tomato]] = ['Apple', 'Banana', 'Orange', ['Tomato
 console.log(tomato);
 
 const obj = {
-    name1: 'Alessandra',
+    name1: 'Joao',
     props: {
         age: 40,
         favoriteColors: ['black', 'blue']

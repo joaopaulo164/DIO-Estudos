@@ -6,7 +6,7 @@ const tomato = arr1[3][0];
 console.log(tomato);
 
 const obj = {
-    name1: 'Alessandra',
+    name1: 'Joao',
     props: {
         age: 40
     }
