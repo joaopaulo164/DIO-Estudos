@@ -34,7 +34,7 @@ console.log(sum2)
 
 
 //retorno implicito de objeto
-var createObj = () => ({ name: 'Daniel' });
+var createObj = () => ({ name: 'Joao' });
 console.log(createObj());
 
 
@@ -286,7 +286,7 @@ console.log(tomato, tomato2)
 
 //Destructuring com objects
 var obj = {
-  name: 'Daniel'
+  name: 'Joao'
 }
 var name2 = obj.name;
 
@@ -302,7 +302,7 @@ console.log(name3)
 
 //Destructuring com objects dentro de objetos
 var obj2 = {
-  name: 'Daniel',
+  name: 'Joao',
   props: {
     age: 35,
     favoriteColors: ['black', 'blue']
@@ -793,7 +793,7 @@ emitter.on('User logged', data => {
   console.log(data);
 });
 
-emitter.emit('User logged', { user: 'Daniel' });
+emitter.emit('User logged', { user: 'Joao' });
 
 // execute
 // server node node-script.js
@@ -816,7 +816,7 @@ users.on('User logged', data => {
   console.log(data);
 });
 
-users.userLogged({ user: 'Daniel' });
+users.userLogged({ user: 'Joao' });
 
 // execute
 // server node node-script.js
@@ -1073,23 +1073,23 @@ describe('Math class', function() {
   // chai comparando propriedades de objetos
   it('Compare property name of objects', function() {
     const obj = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     // chai
     expect(obj)
       .to.have.property('name')
-      .equal('Daniel');
+      .equal('Joao');
   });
 
   // chai comparando objetos
   it.only('Compare objects', function() {
     const obj = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     const obj2 = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     // chai
@@ -1189,23 +1189,23 @@ describe('Math class', function() {
   // chai comparando propriedades de objetos
   it('Compare property name of objects', function() {
     const obj = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     // chai
     expect(obj)
       .to.have.property('name')
-      .equal('Daniel');
+      .equal('Joao');
   });
 
   // chai comparando objetos
   it('Compare objects', function() {
     const obj = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     const obj2 = {
-      name: 'Daniel'
+      name: 'Joao'
     };
 
     // chai
@@ -1289,7 +1289,7 @@ Uma maneira de capturar erros no javascript é utilizando try/catch e também im
 console.log('Start')
 try {
   console.log(name);
-  const name = 'Daniel';
+  const name = 'Joao';
 } catch (err) {
   console.log('Error: ', err)
 }
@@ -1364,7 +1364,7 @@ Exemplos práticos utilizado o debugger do navegador Chrome
   - console.trace: Indica em qual lugar o console está
   - console.group e console.groupEnd: Agrupa informações
   - console.time e console.timeEnd: Exibe tempo de execução de um trecho de código
-  - console.table(['Daniel', 'Digital Innovation One']): Formata os dados em tabela
+  - console.table(['Joao', 'Digital Innovation One']): Formata os dados em tabela
   - console.log('%c style log', 'color: blue'): permitir estilizar a mensagem
 
 #### Exercícios - Módulo VI
