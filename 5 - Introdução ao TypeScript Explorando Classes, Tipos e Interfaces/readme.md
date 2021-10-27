@@ -1,11 +1,11 @@
 # Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
 
 ## TypeScript:
-- funciona como uma extensão que adicona checagem de tipos e varias outras features que o JavaScript não disponibiliza nativanente
+- funciona como uma extensão que adiciona checagem de tipos e varias outras features que o JavaScript não disponibiliza nativamente
 - autocomplete
 
 ## Interfaces:
-- servem para definiar contratos de estrututas de dados
+- servem para definir contratos de estrututas de dados
 
 ## Types:
 - fazer junções das Interfaces
@@ -24,7 +24,7 @@
 - utilizado para importar e adicionar novas funcionalidades num pacote já existente
 
 ## Omit:
-- Utilizado para omitir paremetros de uma classe extendida
+- Utilizado para omitir parametros de uma classe extendida
 
 ```javascript
 
