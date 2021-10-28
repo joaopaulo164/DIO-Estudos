@@ -53,6 +53,17 @@ JavaScript ES6 essencial
 - Aula I - Criando e manipulando arrays
 - Aula II - Iterar, buscar e transformar elementos
 
+## 4 - Desenvolvimento avançado com JavaScript ES6
+
+- Funções avançadas do ES6
+
+## 5 - Introdução ao TypeScript Explorando Classes, Tipos e Interfaces
+
+- Básico de TypeScript
+
+## 6 - Desafio - Criando jogo Genius
+
+- Repositório de um simples jogo Gênesis 
 
 # Bootcamp:
 [Eduzz Fullstack Developer](https://web.digitalinnovation.one/track/eduzz-fullstack-developer)
