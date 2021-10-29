@@ -50,3 +50,44 @@ React funciona em conjunto com outras bibliotecas:
 - Jest (Teste);
 - React i18n Next (internacionalização);
 
+## Webpack
+
+Module bundler (empacotador de módulos para aplicações JS)
+
+- Entry: utilizando grafo, o Webpack precisa de um ponto de entrada para buscar os módulos e as dependências;
+- Output: é para determinar quais são os bundlers que o Webpack irá emitir;
+- Loaders: é para permitir que o Webpack gerencie arquivos não são JavaScript
+- Plugins: podem ser utilizados para otimização de pacotes, minificação e injeção de scripts.
+- Mode: Utilizados para abordagem de configuração zero (Production, Development e None);
+- Production: trás otimizações internas;
+- Development: executado com 3 plugins;
+- None: sem configuração; 
+
+Configuração:
+
+```bash
+npm install --save-dev webpack-cli
+
+npm i -D webpack webpack-cli
+
+"build": "webpack --mode production"
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+npm i react react-dom
+npm i -D babel-preset-react
+
+# .babelrc
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
+
+npm i -D webpack-dev-server
+
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+
+```
+

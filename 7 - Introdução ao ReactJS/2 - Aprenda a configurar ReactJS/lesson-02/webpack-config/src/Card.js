@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => (
-  <div>
-    Card
-  </div>
-)
+//Nunca esquecer o RETURN!!!
+const Card = () => {
+  return <div> Card</div>;
+};
 
-export { Card }
+export { Card };
