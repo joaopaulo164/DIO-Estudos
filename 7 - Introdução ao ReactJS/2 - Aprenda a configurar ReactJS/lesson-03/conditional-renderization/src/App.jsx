@@ -30,7 +30,7 @@ const App = () => {
 
     return (
       <div>
-        <h1>Nome do Cliente: Bruno Carneiro</h1>
+        <h1>Nome do Cliente: Joao Mendes</h1>
       </div>
     )
   }

@@ -105,3 +105,9 @@ npm run eslint
 
 ```
 
+## Conceitos aplicados aos tipos de ddos e condições
+
+- Renderização condicional;
+- Listas e chaves;
+- Manipulação de eventos;
+- Pensando do jeito React

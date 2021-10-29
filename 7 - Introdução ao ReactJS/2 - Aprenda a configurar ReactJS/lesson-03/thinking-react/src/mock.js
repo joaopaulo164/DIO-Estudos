@@ -19,6 +19,6 @@ const mock = [
     name: 'José Ciclano',
     skills: ['Reason']
   }
-]
+];
 
-export default mock
+export default mock;
