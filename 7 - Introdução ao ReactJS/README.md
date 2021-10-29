@@ -91,3 +91,17 @@ npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 
 ```
 
+Execução:
+
+```bash
+# Buld
+npm run build
+
+# Start
+npm run start:dev
+
+# Teste
+npm run eslint
+
+```
+
